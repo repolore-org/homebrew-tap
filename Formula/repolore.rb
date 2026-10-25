@@ -1,28 +1,28 @@
 class Repolore < Formula
   desc "Local, offline operational memory for repositories, stored as Markdown"
   homepage "https://repolore.org"
-  version "1.1.0"
+  version "1.1.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/R-Elias/repolore/releases/download/v1.1.0/repolore-1.1.0-osx-arm64.tar.gz"
-      sha256 "636dec35ee63e19cd19a3e2812b3269ed7fe9fa3e8a3c53d5898e460a9859db9"
+      url "https://github.com/R-Elias/repolore/releases/download/v1.1.1/repolore-1.1.1-osx-arm64.tar.gz"
+      sha256 "fa39a45488cf0e8dcbbd62c837b666ada0b7f313e95cb2bac8266cf09cd2fea8"
     end
     on_intel do
-      url "https://github.com/R-Elias/repolore/releases/download/v1.1.0/repolore-1.1.0-osx-x64.tar.gz"
-      sha256 "e3fd09469248a180caca356db0041b798c3f6fcf4e9df9569c84d4f3be8e3a51"
+      url "https://github.com/R-Elias/repolore/releases/download/v1.1.1/repolore-1.1.1-osx-x64.tar.gz"
+      sha256 "5d2368b774f7ad4c08cd2d3d9a7f9073d2b1234a26c752d9b16731c0b9eb2936"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/R-Elias/repolore/releases/download/v1.1.0/repolore-1.1.0-linux-arm64.tar.gz"
-      sha256 "446458e2ed1f2cf4fe8e5a6df7b2d479fd13a8b528c5a495ce2eab1a9e10f747"
+      url "https://github.com/R-Elias/repolore/releases/download/v1.1.1/repolore-1.1.1-linux-arm64.tar.gz"
+      sha256 "469dbd3bde06855a3c9e50b373957345732c78500c694b2c90fba6aac241fa24"
     end
     on_intel do
-      url "https://github.com/R-Elias/repolore/releases/download/v1.1.0/repolore-1.1.0-linux-x64.tar.gz"
-      sha256 "c2160a80026a33b736c371e00969696ceb5cc65ca13bc6f7eb81e85b8f762721"
+      url "https://github.com/R-Elias/repolore/releases/download/v1.1.1/repolore-1.1.1-linux-x64.tar.gz"
+      sha256 "9f6d0273637af1956fbd4e509ec205b474da1291d90490a3eb1d4f506fad85b5"
     end
   end
 
